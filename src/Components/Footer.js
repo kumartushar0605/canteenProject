@@ -43,7 +43,7 @@ const Footer = () => {
 
         </article>
         <br/>
-          <p>Mobile No : +917217829262</p>
+          <p>Mobile No : +919999999999</p>
           <p>Email : sdfa@gmail.com</p>
           <p>Adress : Delhi</p>
       </aside>
