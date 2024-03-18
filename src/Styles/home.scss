@@ -1,0 +1,112 @@
+#home{
+    // background-image:url("../assets/food.jpg");
+    // background-repeat: no-repeat;
+    // background-size: 1265px 750px;
+    // border-radius: 10px;
+    // opacity: .6;
+    // background-color: rgba(255, 255, 255, 0.7);
+    // background-color: rgba(174, 41, 41, 0.5)
+}
+#home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover the entire element */
+    height: 100%;
+     background-repeat: no-repeat;
+    background-size: 1265px 700px;
+        background-image:url("../assets/food.jpg");
+
+    opacity: 0.6; /* Adjust the opacity level */
+    z-index: -1; /* Ensure it's behind the content */
+}
+
+.icon{
+    animation: change 5s infinite  ;
+    opacity: 1;
+    
+    
+}
+// @keyframes change {
+//     0%{color: red;}
+//     25%{color:#bf55ec;}
+//     50%{color: white;}
+//     75%{color: rgb(85, 241, 46);}
+//     100%{color:#55dfec;}
+// }
+.heading{
+    animation: change 5s infinite  ;
+   font-size: 600%;
+   margin-top: 5%;
+//    font-family: cursive;
+   font-family: 'Times New Roman', Times, serif;
+   opacity: 1;
+  
+}
+.div{
+    animation: up 0.7s linear infinite  alternate ;
+}
+@keyframes up {
+    to{
+        transform: translateY(-10px);
+    }
+}
+.type{
+    font-size: larger;
+    color: red;
+}
+#items{
+    transform: translateY(-8%);
+    background-color: rgb(10, 9, 9);
+    border-radius: 0 0 40px 40px;
+}
+#boxx{
+    
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 10%;
+    transform: translateY(30%);
+    // margin-top: 500px;
+    padding-top: 1%;
+    background-color: rgb(242, 238, 238);
+    border-radius: 20px;
+    
+}
+.itemsheading{
+    transform: translateX(2%);
+    border-bottom: 2px solid black;
+    
+}
+.caro{
+    background-color: rgb(252, 252, 252);
+    // transform: translateX(6%);
+}
+.btnn {
+    cursor: pointer;
+    background-color: $secondary;
+    border: none;
+    padding: 1rem;
+    color: $tertiary;
+    border-radius: 5px;
+    transition: all 0.5s;
+    font-weight: 500;
+    width: 100%;
+    height: 10%;
+   
+  }
+  .btnn:hover {
+    background-color:  rgb(197, 72, 18);
+  }
+  .btnt{
+    transition: 'all' 0.5s;
+  }
+
+  .btnn:hover {
+    transform: scale(1.05);
+  }
+  .imgm{
+    // height: 20vh;
+    // width: 90%;
+    // size: "200px";
+  }
